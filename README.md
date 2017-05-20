@@ -4,8 +4,10 @@ package com.company;
 import java.util.*;
 public class Collections {
     public static void main(String[] args) {
-        // Create the sorted set
+       
+       // Create the sorted set
         SortedSet set = new TreeSet();
+
 //add elemnts
         set.add("lettuce");
         set.add("spinach");
