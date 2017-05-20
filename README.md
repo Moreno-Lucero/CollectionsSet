@@ -6,8 +6,7 @@ public class Collections {
     public static void main(String[] args) {
         // Create the sorted set
         SortedSet set = new TreeSet();
-
-        // Add elements to the set
+//add elemnts
         set.add("lettuce");
         set.add("spinach");
         set.add("broccoli");
@@ -16,8 +15,7 @@ public class Collections {
         set.add("kale");
         set.add("carrots");
 
-
-        // Iterating over the elements in the set
+// Iterating is necessary
         Iterator it = set.iterator();
 
         while (it.hasNext()) {
