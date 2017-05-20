@@ -1,14 +1,13 @@
 # CollectionsSet
 package com.company;
 
-import java.util.*;
+mport java.util.*;
 public class Collections {
     public static void main(String[] args) {
-       
-       // Create the sorted set
+        // Create the sorted set
         SortedSet set = new TreeSet();
 
-//add elemnts
+        // set the elemnts
         set.add("lettuce");
         set.add("spinach");
         set.add("broccoli");
@@ -17,7 +16,8 @@ public class Collections {
         set.add("kale");
         set.add("carrots");
 
-// Iterating is necessary
+
+        // Iterating is necessary
         Iterator it = set.iterator();
 
         while (it.hasNext()) {
