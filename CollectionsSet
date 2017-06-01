@@ -1,13 +1,14 @@
-# CollectionsSet
-package com.company;
-
-mport java.util.*;
+package com.collections;
+/**
+ * Created by luceromoreno on 5/20/17.
+ */
+import java.util.*;
 public class Collections {
     public static void main(String[] args) {
         // Create the sorted set
         SortedSet set = new TreeSet();
 
-        // set the elemnts
+        // Add elements to the set
         set.add("lettuce");
         set.add("spinach");
         set.add("broccoli");
@@ -17,7 +18,7 @@ public class Collections {
         set.add("carrots");
 
 
-        // Iterating is necessary
+        // Iterating over the elements in the set
         Iterator it = set.iterator();
 
         while (it.hasNext()) {
